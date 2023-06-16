@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Application</title>
+    <link rel="stylesheet"href="style.css">
+   <link rel="shortcut icon" href="./calci.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div id="design">
+    <input type="number"placeholder="Enter First Number" id="n1" ><br><br>
+
+    
+    <div id="result"></div><br>
+    <div id="wait">wait</div>
+    <div class="op">
+    <input type="submit"value="Add" id="add" onclick="add()">
+    <input type="submit"value="Sub" id="sub" onclick="sub()">
+    <input type="submit"value="Mul" id="mul" onclick="mul()">
+    <input type="submit"value="Div" id="div" onclick="div()">
+    </div>
+    <input type="submit"value="Reload" id="reload" onclick="window.location.reload()">
+    <input type="submit" value="=" id="eq" onclick="eq()">
+    </div>
+   
+    <script src="./design.js"></script>
+    
+</body>
+</html>
